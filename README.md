@@ -36,7 +36,7 @@ mix test
 
 ## Building and running the CLI
 ```
-mix escript.build # Generante Elixir Executable
+mix escript.build # Generate Elixir Executable
 
 ./mars_rovers test/support/input.txt
 
