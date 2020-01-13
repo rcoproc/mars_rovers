@@ -8,6 +8,7 @@ defmodule MarsRovers.MixProject do
       elixir: "~> 1.9",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env() == :prod,
+      escript: escript,
       deps: deps()
     ]
   end
