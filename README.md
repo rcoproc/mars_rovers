@@ -10,6 +10,22 @@ See below the generation of the executable in Elixir.
 mix deps.get
 ```
 
+## Running tests
+
+```
+mix test
+```
+
+## Building and running the CLI
+
+```
+mix escript.build # Generate Elixir Executable
+
+./mars_rovers test/support/input.txt
+
+./mars_rovers -s -p -w 5 -h 5 -r 3
+```
+
 ```
 # Test Input:
 5 5
@@ -28,19 +44,4 @@ heading.
 5 1 E
 ```
 
-## Running tests
-
-```
-mix test
-```
-
-## Building and running the CLI
-```
-mix escript.build # Generate Elixir Executable
-
-./mars_rovers test/support/input.txt
-
-./mars_rovers -s -p -w 5 -h 5 -r 3
-
-```
 

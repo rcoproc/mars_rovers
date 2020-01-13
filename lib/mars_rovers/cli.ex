@@ -53,7 +53,10 @@ defmodule MarsRovers.CLI do
 
   def process(_) do
     """
-    Usage: #{@bin_name} [OPTIONS] <input_file>
+             Usage: #{@bin_name} [OPTIONS] <input_file>
+
+             Sample: ./#{@bin_name} -w 10 -h 10 -r 10 -s -p
+                     ./#{@bin_name} test/support/input.txt
 
     -v       Prints version and exits
     -s       Simulation mode: generates random data
