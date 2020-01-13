@@ -30,4 +30,4 @@ defmodule MarsRovers.Rover do
         default_color ]
     end
   end
-e
+end
