@@ -9,13 +9,15 @@ defmodule MarsRovers.MixProject do
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env() == :prod,
       escript: escript,
-      deps: deps()
+      deps: deps(),
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {MarsRovers, []},
       extra_applications: [:logger]
     ]
   end
