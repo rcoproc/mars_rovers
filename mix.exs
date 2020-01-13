@@ -5,7 +5,7 @@ defmodule MarsRovers.MixProject do
     [
       app: :mars_rovers,
       version: "0.1.0",
-      elixir: "~> 1.9",
+      elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env() == :prod,
       escript: escript,

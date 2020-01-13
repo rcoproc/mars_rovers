@@ -1,19 +1,10 @@
-# MarsRovers
+# MarsRovers(Explorando Marte)
 
 **TODO: Test by Ricardo Oliveira MarsRovers**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mars_rovers` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:mars_rovers, "~> 0.1.0"}
-  ]
-end
-```
+See below the generation of the executable in Elixir.
 
 ```
 mix deps.get
@@ -38,6 +29,7 @@ heading.
 ```
 
 ## Running tests
+
 ```
 mix test
 ```
