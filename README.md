@@ -48,5 +48,7 @@ mix escript.build # Generante Elixir Executable
 
 ./mars_rovers test/support/input.txt
 
+./mars_rovers -s -p -w 5 -h 5 -r 3
+
 ```
 
