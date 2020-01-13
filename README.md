@@ -1,6 +1,6 @@
 # MarsRovers
 
-**TODO: Add description**
+**TODO: Test by Ricardo Oliveira MarsRovers**
 
 ## Installation
 
@@ -15,7 +15,38 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/mars_rovers](https://hexdocs.pm/mars_rovers).
+```
+mix deps.get
+```
+
+```
+# Test Input:
+5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+```
+
+### OUTPUT
+The output for each rover should be its final co-ordinates and
+heading.
+```
+# Expected Output:
+1 3 N
+5 1 E
+```
+
+## Running tests
+```
+mix test
+```
+
+## Building and running the CLI
+```
+mix escript.build # Generante Elixir Executable
+
+./mars_rovers test/support/input.txt
+
+```
 
